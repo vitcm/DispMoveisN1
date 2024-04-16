@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linha1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp">
+
+        <EditText
+            android:id="@+id/edtNumero1_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero1_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero1_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero1_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linha2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linha1"
+        android:layout_marginTop="24dp">
+
+        <EditText
+            android:id="@+id/edtNumero2_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero2_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero2_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero2_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linha3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linha2"
+        android:layout_marginTop="24dp">
+
+        <EditText
+            android:id="@+id/edtNumero3_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero3_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero3_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero3_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linha4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linha3"
+        android:layout_marginTop="24dp">
+
+        <EditText
+            android:id="@+id/edtNumero4_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero4_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero4_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero4_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linha5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linha4"
+        android:layout_marginTop="24dp">
+
+        <EditText
+            android:id="@+id/edtNumero5_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero5_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero5_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:id="@+id/edtNumero5_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"/>
+
+</RelativeLayout>

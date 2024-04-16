@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_puc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textPUC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUC Goiás"
+        android:textSize="18sp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vitórya Castro Moraes"
+        android:textSize="24sp"
+        android:layout_below="@id/textPUC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022.1.0120.0050-1"
+        android:textSize="18sp"
+        android:layout_below="@id/textNome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textNome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evelyn Silva Martins"
+        android:textSize="24sp"
+        android:layout_below="@id/textMatricula"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textMatricula2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022.1.0120.0052-8"
+        android:textSize="18sp"
+        android:layout_below="@id/textNome2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Análise e desenvolvimento de sistemas"
+        android:textSize="18sp"
+        android:layout_below="@id/textMatricula2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textOrientador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orientador Fernando Gonçalves Abadia"
+        android:textSize="18sp"
+        android:layout_below="@id/textCurso"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:layout_below="@id/textOrientador"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

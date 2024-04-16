@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/viewPerdedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/textPerdedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ah não, você perdeu!"
+            android:textSize="24sp"
+            android:layout_marginTop="100dp"/>
+
+        <ImageView
+            android:id="@+id/imagePerdedor"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_below="@id/textPerdedor"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/perdeu" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMenuPerdeu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir pro menu"
+        android:layout_below="@id/viewPerdedor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout >

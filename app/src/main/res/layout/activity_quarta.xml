@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Linha superior com as imagens pedra, papel e tesoura -->
+    <LinearLayout
+        android:id="@+id/linhaSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal">
+
+        <!-- Imagem pedra -->
+        <ImageView
+            android:id="@+id/imgPedraOponente"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pedra"/>
+
+        <!-- Imagem papel -->
+        <ImageView
+            android:id="@+id/imgPapelOponente"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/papel"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Imagem tesoura -->
+        <ImageView
+            android:id="@+id/imgTesouraOponente"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tesoura"/>
+    </LinearLayout>
+
+    <!-- Texto "OPONENTE" -->
+    <TextView
+        android:id="@+id/textOponente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPONENTE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/linhaSuperior"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Layout para a escolha do oponente e do usuário -->
+    <RelativeLayout
+        android:id="@+id/layoutEscolha"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@id/textOponente"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/imgOponenteEscolha"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@android:color/transparent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/imgUsuarioEscolha"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textVoce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOCÊ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/layoutEscolha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/linhaInferior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/textVoce"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgPedraUsuario"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pedra"/>
+
+        <ImageView
+            android:id="@+id/imgPapelUsuario"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/papel"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <ImageView
+            android:id="@+id/imgTesouraUsuario"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tesoura"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_above="@id/btnVoltar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>
