@@ -4,12 +4,56 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/linha1"
+        android:id="@+id/legenda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="#fe0000"
+            android:text="Não tem"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:background="#ffff00"
+            android:text="Está no lugar errado"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="#00ff01"
+            android:text="Acertou!"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linha1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/legenda">
 
         <EditText
             android:id="@+id/edtNumero1_1"
